@@ -23,7 +23,7 @@ CLIPS = [
     ("06", 18.0, 2.0, "narrator", "Someone who grew up with no money will say:", None),
     ("06q", 20.0, 1.9, "male, middle-aged, very low pitch, american accent", "Money first... dreams later.", None),
     ("07", 22.0, 2.9, "narrator", "A friend who quit... and is happy, will say:", None),
-    ("07q", 25.0, 1.0, "female, young adult, high pitch, american accent", "[laughter] Quit!", None),
+    ("07q", 25.0, 1.0, "male, young adult, moderate pitch, american accent", "Quit.", None),  # kept take: seed 3, duration 1.0
     ("08", 26.0, 2.5, "narrator", "And someone who never even tried will say:", None),
     ("08q", 28.5, 1.4, "male, young adult, low pitch, american accent", "It's impossible.", None),
     ("09", 30.3, 1.6, "narrator", "None of them is lying.", None),
@@ -35,6 +35,8 @@ CLIPS = [
     ("15", 49.0, 3.4, "narrator", "Subscribe, if you sometimes need a push forward.", None),
 ]
 REF_ID = "01"
+# lines that ran past their on-screen slot: ask the model for exactly the slot length
+FIT_TO_SLOT = {"03", "04", "05", "06", "11", "14"}
 
 def main(only):
     torch.set_num_threads(os.cpu_count())
@@ -55,6 +57,7 @@ def main(only):
         else:
             kw["instruct"] = NARRATOR if voice == "narrator" else voice
         if speed: kw["speed"] = speed
+        if cid in FIT_TO_SLOT: kw["duration"] = maxlen + 0.1
         t = time.time()
         with torch.inference_mode():
             codes = model.generate(**proc(**kw))
