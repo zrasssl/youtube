@@ -2,3 +2,4 @@ advice/clips/*_48k.wav
 advice/clips/voice_track.wav
 __pycache__/
 advice/eleven/*.wav
+daily/out/.*/

@@ -1,0 +1,15 @@
+{
+ "title": "Stop Comparing Your Chapter 1 to Their Chapter 20 💭 | Run Your Own Race",
+ "description": "You scroll and see someone your age — already there. The car. The house. The perfect life.\n\nBut you didn't see the nights they almost quit. And they didn't see what you've survived.\n\nComparison is a race where everyone runs a different track. The only person you need to beat is yesterday's you.\n\nSlow progress is still progress.\n\n🔔 Subscribe if you sometimes need a push forward.\n\n#motivation #comparison #mindset #selfworth #selfimprovement #motivationalvideo #personalgrowth #progress",
+ "tags": ["motivation", "stop comparing", "comparison", "mindset", "self worth", "self improvement", "motivational video", "personal growth", "progress", "inspiration"],
+ "scenes": [
+  {"head": "You scroll and see", "big": "Someone your age, already there.", "speech": "You scroll... and see someone your age, already there."},
+  {"head": "The car. The house.", "big": "The perfect life.", "speech": "[softly] The car. The house. The perfect life."},
+  {"head": "But you didn't see", "big": "The nights they almost quit.", "speech": "But you didn't see... the nights they almost quit."},
+  {"head": "And they didn't see", "big": "What you've survived.", "speech": "[warmly] And they didn't see... what YOU'VE survived.", "accent": true},
+  {"head": "Comparison is a race", "big": "Where everyone runs a different track.", "speech": "Comparison is a race... where everyone runs a different track."},
+  {"head": "The only person you need to beat", "big": "Is yesterday's you.", "speech": "[firmly] The only person you need to beat... is yesterday's you.", "accent": true},
+  {"head": "Slow progress", "big": "Is still progress.", "speech": "[warmly] Slow progress... is still progress."},
+  {"head": "Subscribe if you sometimes", "big": "Need a push forward.", "voice_file": "advice/eleven/15.mp3"}
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "title": "Motivation Leaves. Discipline Stays. 🔥 | The Day That Actually Counts",
+ "description": "Motivation gets you started. Discipline keeps you going.\n\nMotivation is a feeling — and feelings leave. Some days you'll wake up with zero energy. No one will clap. No one will see.\n\nThat's the day that actually counts.\n\nOne page. One rep. One step. Every single day. Small things, repeated, become who you are.\n\nYou don't need to feel ready. You need to show up.\n\n🔔 Subscribe if you sometimes need a push forward.\n\n#motivation #discipline #mindset #selfimprovement #consistency #motivationalvideo #personalgrowth #habits",
+ "tags": ["motivation", "discipline", "mindset", "self improvement", "consistency", "habits", "motivational video", "personal growth", "show up", "inspiration"],
+ "scenes": [
+  {"head": "Motivation gets you started —", "big": "Discipline keeps you going.", "speech": "Motivation gets you started. [firmly] Discipline... keeps you going."},
+  {"head": "Motivation is a feeling.", "big": "And feelings leave.", "speech": "Motivation is a feeling. [softly] And feelings... leave."},
+  {"head": "Some days you'll wake up", "big": "With zero energy.", "speech": "[tired] Some days you'll wake up with zero energy."},
+  {"head": "No one will clap.", "big": "No one will see.", "speech": "No one will clap. [softly] No one will see."},
+  {"head": "That's the day", "big": "That actually counts.", "speech": "[intensely] That's the day... that actually counts.", "accent": true},
+  {"head": "One page. One rep. One step.", "big": "Every single day.", "speech": "One page. One rep. One step. [pause] Every single day."},
+  {"head": "Small things, repeated,", "big": "Become who you are.", "speech": "Small things, repeated... become who you are."},
+  {"head": "You don't need to feel ready.", "big": "You need to show up.", "speech": "[warmly] You don't need to feel ready. [firmly] You need to show UP.", "accent": true},
+  {"head": "Subscribe if you sometimes", "big": "Need a push forward.", "voice_file": "advice/eleven/15.mp3"}
+ ]
+}
