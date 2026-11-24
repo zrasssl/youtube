@@ -1,0 +1,18 @@
+{
+ "title": "Everyone Has an Opinion About Your Dream 🗣️ | But the Life Is Yours",
+ "description": "Tell people your dream — and watch what they say.\n\nSomeone who gave up on theirs will say: \"Be realistic.\"\nSomeone who's scared of change: \"Why risk it?\"\nSomeone who never left their hometown: \"That's not for people like us.\"\nSomeone who made it: \"Go. Right now.\"\nAnd someone who loves you, but fears for you: \"Just be careful.\"\n\nEvery answer is a mirror of their own life — their fears, their wins, their regrets.\n\nListen to all of them. Then decide for yourself. Because opinions are free — but the life is yours.\n\n🔔 Subscribe if you sometimes need a push forward.\n\n#motivation #dreams #mindset #advice #selfbelief #motivationalvideo #personalgrowth #followyourdreams",
+ "tags": ["motivation", "dreams", "follow your dreams", "mindset", "advice", "self belief", "motivational video", "personal growth", "opinions", "inspiration"],
+ "scenes": [
+  {"head": "Tell people your dream —", "big": "And watch what they say.", "speech": "[curious] Tell people your dream... and watch what they say."},
+  {"head": "Someone who gave up on theirs will say:", "big": "\"Be realistic.\"", "speech": "Someone who gave up on theirs will say: [tired] Be realistic."},
+  {"head": "Someone who's scared of change will say:", "big": "\"Why risk it?\"", "speech": "Someone who's scared of change will say: [nervous] Why risk it?"},
+  {"head": "Someone who never left their hometown will say:", "big": "\"That's not for people like us.\"", "speech": "Someone who never left their hometown will say: [sighs] That's not for people like us."},
+  {"head": "Someone who made it will say:", "big": "\"Go. Right now.\"", "speech": "Someone who made it will say: [excited] Go. Right NOW!", "accent": true},
+  {"head": "And someone who loves you, but fears for you:", "big": "\"Just be careful.\"", "speech": "And someone who loves you... but fears for you, will say: [softly] Just be careful."},
+  {"head": "Every answer —", "big": "Is a mirror of their own life.", "speech": "Every answer... is a mirror of their own life."},
+  {"head": "Their fears. Their wins.", "big": "Their regrets.", "speech": "Their fears. Their wins. [softly] Their regrets."},
+  {"head": "Listen to all of them.", "big": "Then decide for yourself.", "speech": "[warmly] Listen to all of them. [firmly] Then decide for yourself."},
+  {"head": "Because opinions are free —", "big": "But the life is yours.", "speech": "Because opinions are free... [dramatically] but the life is YOURS.", "accent": true},
+  {"head": "Subscribe if you sometimes", "big": "Need a push forward.", "voice_file": "advice/eleven/15.mp3"}
+ ]
+}
