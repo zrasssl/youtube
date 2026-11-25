@@ -1,0 +1,260 @@
+{
+ "timeline": [
+  [
+   0.0,
+   2.2029,
+   1,
+   "One dollar for every meter."
+  ],
+  [
+   2.2029,
+   3.41786,
+   1,
+   "Sounds like nothing?"
+  ],
+  [
+   3.41786,
+   7.69083,
+   1,
+   "But you could already be a millionaire — just by living your life."
+  ],
+  [
+   7.69083,
+   13.0257,
+   2,
+   "The average person takes about 6,000 steps a day."
+  ],
+  [
+   13.0257,
+   15.32265,
+   2,
+   "That's 4.5 kilometers — 4,500 dollars."
+  ],
+  [
+   15.32265,
+   18.37125,
+   2,
+   "In a year — over one and a half million."
+  ],
+  [
+   18.37125,
+   19.7746,
+   3,
+   "The rules are simple."
+  ],
+  [
+   19.7746,
+   24.76815,
+   3,
+   "Max and Sam get the same message: one dollar for every meter."
+  ],
+  [
+   24.76815,
+   27.342399999999998,
+   3,
+   "On foot only — cars, elevators and treadmills don't count."
+  ],
+  [
+   27.342399999999998,
+   31.73535,
+   4,
+   "Max takes off and walks all day and all night."
+  ],
+  [
+   31.73535,
+   34.57415,
+   4,
+   "60 kilometers — 60,000 dollars in one day!"
+  ],
+  [
+   34.57415,
+   38.3196,
+   4,
+   "Sam calmly walks 25 kilometers and goes to bed."
+  ],
+  [
+   38.3196,
+   41.34635,
+   5,
+   "On day two, Max squeezes out another 40."
+  ],
+  [
+   41.34635,
+   44.26275,
+   5,
+   "He has 100,000, Sam has 50."
+  ],
+  [
+   44.26275,
+   47.286950000000004,
+   5,
+   "Max is already sending him screenshots."
+  ],
+  [
+   47.286950000000004,
+   50.03815,
+   6,
+   "But on day three, Max can't get up."
+  ],
+  [
+   50.03815,
+   52.95785,
+   6,
+   "His feet are raw, his knees won't bend."
+  ],
+  [
+   52.95785,
+   56.10935,
+   6,
+   "For two weeks — just 2 kilometers a day."
+  ],
+  [
+   56.10935,
+   60.5389,
+   6,
+   "Then he recovers, but never risks it again — 10 kilometers a day."
+  ],
+  [
+   60.5389,
+   62.3927,
+   7,
+   "And Sam keeps walking."
+  ],
+  [
+   62.3927,
+   67.68539999999999,
+   7,
+   "25 kilometers every day — in the rain, on weekends, with music in his ears."
+  ],
+  [
+   67.68539999999999,
+   70.24845,
+   7,
+   "And by day five, he passes Max."
+  ],
+  [
+   70.24845,
+   71.4726,
+   8,
+   "A year goes by."
+  ],
+  [
+   71.4726,
+   73.46940000000001,
+   8,
+   "Max has 3.6 million."
+  ],
+  [
+   73.46940000000001,
+   74.26525,
+   8,
+   "Not bad."
+  ],
+  [
+   74.26525,
+   76.42075,
+   8,
+   "But Sam has 9 million!"
+  ],
+  [
+   76.42075,
+   78.40925,
+   8,
+   "Two and a half times more."
+  ],
+  [
+   78.40925,
+   80.2218,
+   8,
+   "Not because he was faster."
+  ],
+  [
+   80.2218,
+   82.10225,
+   8,
+   "Because he never stopped."
+  ],
+  [
+   82.10225,
+   83.27395,
+   9,
+   "And one last thing."
+  ],
+  [
+   83.27395,
+   89.91745,
+   9,
+   "In 70 years, a person walks about 115,000 kilometers — almost three times around the Earth."
+  ],
+  [
+   89.91745,
+   92.8798,
+   9,
+   "That's 115 million dollars."
+  ],
+  [
+   92.8798,
+   94.15785,
+   9,
+   "Just for walking."
+  ],
+  [
+   94.15785,
+   97.880816,
+   10,
+   "So would you sprint like Max, or walk like Sam?"
+  ]
+ ],
+ "scenes": [
+  [
+   1,
+   0.0,
+   7.69083
+  ],
+  [
+   2,
+   7.69083,
+   18.37125
+  ],
+  [
+   3,
+   18.37125,
+   27.342399999999998
+  ],
+  [
+   4,
+   27.342399999999998,
+   38.3196
+  ],
+  [
+   5,
+   38.3196,
+   47.286950000000004
+  ],
+  [
+   6,
+   47.286950000000004,
+   60.5389
+  ],
+  [
+   7,
+   60.5389,
+   70.24845
+  ],
+  [
+   8,
+   70.24845,
+   82.10225
+  ],
+  [
+   9,
+   82.10225,
+   94.15785
+  ],
+  [
+   10,
+   94.15785,
+   98.880816
+  ]
+ ]
+}
