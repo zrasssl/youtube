@@ -135,7 +135,7 @@ def widths(ws, w):
 
 wsD = wb.active; wsD.title = "Данные"
 cols = list(raw.columns)
-header(wsD, 1, cols + [RU[v] for v in VARS] + ["Прогноз модели", "Остаток"])
+header(wsD, 1, cols + [RU[v] for v in VARS] + ["Прогноз модели", "Остаток", "№ месяца", "Год (по порядку строк)"])
 V0 = len(cols) + 1                      # первая колонка числового блока (R)
 VC = {v: L(V0 + i) for i, v in enumerate(VARS)}
 PC, RC = L(V0 + len(VARS)), L(V0 + len(VARS) + 1)
@@ -149,6 +149,8 @@ for i in range(N):
         wsD.cell(r, V0 + k_, "=" + FORMULA[v].format(r=r))
     wsD.cell(r, V0 + len(VARS), f"=Регрессия!$B$22+" + "+".join(f"Регрессия!$B${23+k_}*{VC[f_]}{r}" for k_, f_ in enumerate(FACT)))
     wsD.cell(r, V0 + len(VARS) + 1, f"={VC['y']}{r}-{PC}{r}")
+    wsD.cell(r, V0 + len(VARS) + 2, f'=MATCH(K{r},{{"jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"}},0)')
+    wsD.cell(r, V0 + len(VARS) + 3, 2008 if r == 2 else f"={L(V0+len(VARS)+3)}{r-1}+IF({L(V0+len(VARS)+2)}{r}<{L(V0+len(VARS)+2)}{r-1},1,0)")
 wsD.freeze_panes = "A2"
 wsD.cell(1, 13).value = "campaign"   # в исходнике заголовок был пустым
 
@@ -173,7 +175,7 @@ header(wsK, rr + 1, ["Переменная", "r (все)", "r (без 1%)", "П�
 for k_, x in enumerate(["duration", "balance", "campaign"]):
     o = R["outliers"][x]
     for j, v in enumerate([RU[x], o["r_all"], o["r_trim"], o["cut"], o["removed"]], 1): wsK.cell(rr + 2 + k_, j, v)
-img = XLImage(f"{out}/1_scatter.png"); img.width, img.height = 760, 304; wsK.add_image(img, f"A{rr + 7}")
+
 widths(wsK, [34] + [12] * len(VARS)); wsK.column_dimensions["D"].width = 14
 
 # регрессия
@@ -224,11 +226,9 @@ wsR.cell(T0 + 9, 1, "R²").font = B; wsR.cell(T0 + 9, 2, "=I14").number_format =
 wsR.cell(T0 + 10, 1, "Наблюдений").font = B; wsR.cell(T0 + 10, 2, N)
 wsR.cell(T0 + 11, 1, "Для сравнения: R² с длительностью звонка").font = B; wsR.cell(T0 + 11, 2, R["r2_with_duration"])
 wsR.cell(T0 + 11, 3, "— рост R² даёт механическая переменная, поэтому она исключена").font = NOTE
-img = XLImage(f"{out}/2_residuals.png"); img.width, img.height = 760, 304; wsR.add_image(img, f"A{T0 + 14}")
 widths(wsR, [30, 14, 14, 9, 12, 26, 14, 70, 13, 13, 13, 13, 13, 13])
 
-wsP = wb.create_sheet("Прогноз")
-wsP.cell(1, 1, "Части 3–4. В Bank Marketing нет временной оси, поэтому по заданию прогноз строится по файлу Nedelya-13_Ryad-dlya-prognoza.xlsx").font = H1
+exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "build_extra.py"), encoding="utf-8").read())
 
 wb.save(f"{out}/Seminar_BankMarketing.xlsx")
 json.dump(R, open(f"{out}/results.json", "w"), ensure_ascii=False, indent=1)
